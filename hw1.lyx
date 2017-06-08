@@ -1,0 +1,1934 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "palatino" "default"
+\font_sans "biolinum" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing onehalf
+\use_hyperref true
+\pdf_title "Analytical Methods - HW 1"
+\pdf_author "Yossi Ovcharik"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 3cm
+\rightmargin 2cm
+\bottommargin 3cm
+\columnsep 1.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Analytical Methods in Engineering
+\end_layout
+
+\begin_layout Author
+Homework #1
+\end_layout
+
+\begin_layout Section
+Question 1
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $y''+2y'-8y=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assuming 
+\begin_inset Formula $y=e^{rx}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r^{2}e^{rx}+2re^{rx}-8e^{rx}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r^{2}+2r-8=0\rightarrow r_{1,2}=\left\{ 2,-4\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow\boldsymbol{\varphi\left(x\right)=c_{1}\cdot e^{2x}+c{}_{2}\cdot e^{-4x}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $y''+2y'+1.25y=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assuming 
+\begin_inset Formula $y=e^{rx}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r^{2}e^{rx}+2re^{rx}+1.25e^{rx}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r^{2}+2r+1.25=0\rightarrow r_{1,2}=\left\{ -1\pm0.5i\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow\boldsymbol{\varphi\left(x\right)=c_{1}\cdot e^{-x}\left(\cos\frac{x}{2}\right)+c{}_{2}\cdot e^{-x}\left(\sin\frac{x}{2}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $y''-6y'+9y=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assuming 
+\begin_inset Formula $y=e^{rx}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r^{2}e^{rx}-6re^{rx}+9e^{rx}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r^{2}-6r+9=0\rightarrow r_{1,2}=\left\{ 3\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow\boldsymbol{\varphi\left(x\right)=c_{1}\cdot e^{3x}+c{}_{2}\cdot x\cdot e^{3x}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $x^{4}y''+3x^{3}y'+1.25x^{2}y=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dividing by 
+\emph on
+
+\begin_inset Formula $x^{2}$
+\end_inset
+
+ 
+\emph default
+(
+\begin_inset Formula $\because x>0$
+\end_inset
+
+): 
+\begin_inset Formula $x^{2}y''+3xy'+1.25y=0$
+\end_inset
+
+, Assuming 
+\begin_inset Formula $y=x^{r}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+x^{2}\cdot r\left(r-1\right)\cdot x^{r-2}+3x\cdot rx^{r-1}+1.25x^{r}=0
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+r^{2}+2r+1.25=0\rightarrow r_{1,2}=\left\{ -1\pm0.5i\right\} 
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y=c_{1}x^{-1-\frac{i}{2}}+c_{2}x^{-1+\frac{i}{2}}=\dots
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\frac{c_{1}}{x}e^{\ln\left(x\right)^{\nicefrac{-i}{2}}}+\frac{c_{2}}{x}e^{\ln\left(x\right)^{\nicefrac{i}{2}}}=\dots
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\frac{c_{1}}{x}e^{\nicefrac{-i}{2}\ln\left(x\right)}+\frac{c_{2}}{x}e^{\nicefrac{i}{2}\ln\left(x\right)}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y=\frac{c_{1}}{x}\left(\cos\frac{\ln x}{2}-i\sin\frac{\ln x}{2}\right)+\dots
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\dots+\frac{c_{2}}{x}\left(\cos\frac{\ln x}{2}+i\sin\frac{\ln x}{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset Formula 
+\[
+\boldsymbol{y\left(x\right)=\frac{c_{3}}{x}\cos\frac{\ln x}{2}+\frac{c_{4}}{x}\sin\frac{\ln x}{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Question 2
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $y''+4y=0\quad y\left(0\right)=0,\,y'\left(0\right)=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assuming 
+\begin_inset Formula $y=e^{rx}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r^{2}e^{rx}+4e^{rx}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r^{2}+4=0\rightarrow r_{1,2}=\left\{ \pm2i\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow\varphi=c_{1}\cdot\cos2x+c{}_{2}\cdot\sin2x
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y\left(0\right)=c_{1}=0
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y'\left(x\right)=-2c_{1}\cdot\sin2x+2c_{2}\cdot\cos2x
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y'\left(0\right)=2c_{2}=1\rightarrow c_{2}=\frac{1}{2}
+\]
+
+\end_inset
+
+
+\series bold
+
+\begin_inset Formula 
+\[
+\boldsymbol{y\left(x\right)=\frac{1}{2}\sin2x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $y''+y'+1.25y=0$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $y\left(0\right)=3,\,y'\left(0\right)=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assuming 
+\begin_inset Formula $y=e^{rx}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r^{2}e^{rx}+re^{rx}+1.25e^{rx}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r^{2}+r+1.25=0\rightarrow r_{1,2}=\left\{ -0.5\pm i\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow y=c_{1}e^{-\nicefrac{x}{2}}\cos x+c_{2}e^{-\nicefrac{x}{2}}\sin x
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y\left(0\right)=c_{1}=3
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y'=c_{1}\left(-\frac{1}{2}e^{-\nicefrac{x}{2}}\cos x-e^{-\nicefrac{x}{2}}\sin x\right)+\dots
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
++c_{2}\left(-\frac{1}{2}e^{-\nicefrac{x}{2}}\sin x+e^{-\nicefrac{x}{2}}\cos x\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y'\left(0\right)=c_{1}\left(-\frac{1}{2}\right)+c_{2}=1\rightarrow c_{2}=2.5
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\boldsymbol{y\left(x\right)=3e^{-\frac{x}{2}}\cos x+2.5e^{-\frac{x}{2}}\sin x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $y''+4y'+4y=0$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "subsec:1 4 4"
+
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $y\left(-1\right)=2,\,y'\left(-1\right)=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assuming 
+\begin_inset Formula $y=e^{rx}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+r^{2}+4r+4=0\rightarrow r_{1,2}=\left\{ -2\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow y=c_{1}e^{-2x}+c_{2}x\cdot e^{-2x}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y\left(-1\right)=\underline{c_{1}e^{2}-c_{2}\cdot e^{2}=2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y'=-2c_{1}e^{-2x}+c_{2}\left(e^{-2x}-2x\cdot e^{-2x}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y'\left(-1\right)=\underline{-2c_{1}e^{2}+c_{2}\left(e^{2}+2\cdot e^{2}\right)=1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Two equations with two unknowns:
+\begin_inset Formula 
+\[
+\begin{bmatrix}e^{2} & -e^{2}\\
+-2e^{2} & e^{2}+2e^{2}
+\end{bmatrix}\begin{bmatrix}c_{1}\\
+c_{2}
+\end{bmatrix}=\begin{bmatrix}2\\
+1
+\end{bmatrix}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\begin{bmatrix}c_{1}\\
+c_{2}
+\end{bmatrix}=\begin{bmatrix}7e^{-2}\\
+5e^{-2}
+\end{bmatrix}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Rightarrow\boldsymbol{y\left(x\right)=7e^{-2}e^{-2x}+5x\cdot e^{-2}e^{-2x}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=y\left(x\right)=\left(7+5x\right)e^{-2\left(1+x\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Question 3
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L\left[y\right]=\left(1-\ln x\right)y''+\frac{1}{x}y'-\frac{1}{x^{2}}y=0
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\begin{array}{c}
+\varphi_{1}\left(x\right)=x\\
+\varphi_{2}\left(x\right)=\ln x
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituting presented solutions into the differential equation:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L\left[\varphi_{1}\left(x\right)\right]=\frac{1}{x}-\frac{1}{x^{2}}x\equiv0,
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+hence 
+\begin_inset Formula $\varphi_{1}$
+\end_inset
+
+ is a solution.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L\left[\varphi_{2}\left(x\right)\right]=-\frac{\left(1-\ln x\right)}{x^{2}}+\frac{1}{x^{2}}-\frac{\ln x}{x^{2}}\equiv0,
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+hence 
+\begin_inset Formula $\varphi_{2}$
+\end_inset
+
+ is a solution.
+\end_layout
+
+\begin_layout Subsection
+Wronskian calculation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{array}{cc}
+\varphi_{1}\left(x\right)=x & \varphi_{2}\left(x\right)=\ln x\end{array}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\begin{array}{cc}
+\varphi'_{1}\left(x\right)=1 & \varphi'_{2}\left(x\right)=\frac{1}{x}\end{array}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+W=\left|\begin{array}{cc}
+x & \ln x\\
+1 & \frac{1}{x}
+\end{array}\right|=1-\ln x
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Question 4
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $y''+4y'+4y=x^{-2}e^{-2x}\qquad x>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Repeating steps from 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:1 4 4"
+
+\end_inset
+
+ yields:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=c_{1}e^{-2x}+c_{2}x\cdot e^{-2x}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+W\left(\varphi_{1},\varphi_{2},x\right)=\begin{vmatrix}e^{-2x} & xe^{-2x}\\
+-2e^{-2x} & \left[1-2x\right]e^{-2x}
+\end{vmatrix}=e^{-4x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assuming 
+\begin_inset Formula $C_{1}\left(x\right);\quad C_{2}\left(x\right)$
+\end_inset
+
+: 
+\begin_inset Formula 
+\[
+y=C_{1}\left(x\right)e^{-2x}+C_{2}\left(x\right)\cdot x\cdot e^{-2x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Two new equations: 
+\begin_inset Formula 
+\[
+\begin{alignedat}{1}C'_{1}\left(x\right)e^{-2x}+C'_{2}\left(x\right)\cdot x\cdot e^{-2x} & =0\\
+C'_{1}\left(x\right)\cdot-2e^{-2x}+C'_{2}\left(x\right)\left[1+2x\right]e^{-2x} & =x^{-2}e^{-2x}
+\end{alignedat}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Rearranging:
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\begin{alignedat}{1}c'_{1}\left(x\right)+c'_{2}\left(x\right)\cdot x & =0\\
+c'_{1}\left(x\right)\cdot\left(-2\right)+c'_{2}\left(x\right)\left[1+2x\right] & =x^{-2}
+\end{alignedat}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\begin{bmatrix}1 & x\\
+-2 & 1+2x
+\end{bmatrix}\begin{Bmatrix}c'_{1}\\
+c'_{2}
+\end{Bmatrix}=\begin{Bmatrix}0\\
+x^{-2}
+\end{Bmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Solving for 
+\begin_inset Formula $c'_{1},\,c'_{2}$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+c'_{1}=\frac{\begin{vmatrix}0 & x\\
+x^{-2} & 1+2x
+\end{vmatrix}}{\begin{vmatrix}e^{-2x} & xe^{-2x}\\
+-2e^{-2x} & \left[1-2x\right]e^{-2x}
+\end{vmatrix}}=\frac{x^{-1}}{\left(1-2x+2x\right)e^{-4x}}=\frac{e^{4x}}{x}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\rightarrow c_{1}=
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+c'_{2}=\frac{\begin{vmatrix}1 & 0\\
+-2 & x^{-2}
+\end{vmatrix}}{\begin{vmatrix}e^{-2x} & xe^{-2x}\\
+-2e^{-2x} & \left[1-2x\right]e^{-2x}
+\end{vmatrix}}=\frac{x^{-2}}{\left(1-2x+2x\right)e^{-4x}}=\frac{e^{4x}}{x^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+C_{1}\left(x\right) & =c_{1}-\int\frac{f\left(x\right)\boldsymbol{\varphi_{2}}\left(x\right)}{W\left(\varphi_{1},\varphi_{2},x\right)}dx=\\
+= & c_{1}-\int\frac{x^{-2}e^{-2x}\cdot xe^{-2x}}{e^{-4x}}dx=c_{1}-\int\frac{1}{x}dx
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\boldsymbol{C_{1}\left(x\right)=c_{1}-\ln x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+C_{2}\left(x\right) & =c_{2}+\int\frac{f\left(x\right)\boldsymbol{\varphi_{1}}\left(x\right)}{W\left(\varphi_{1},\varphi_{2},x\right)}dx=\\
+= & c_{2}+\int\frac{x^{-2}e^{-2x}\cdot e^{-2x}}{e^{-4x}}dx=c_{2}+\int\frac{1}{x^{2}}dx
+\end{align*}
+
+\end_inset
+
+
+\series bold
+
+\begin_inset Formula 
+\[
+\boldsymbol{C_{2}\left(x\right)=c_{2}-\frac{1}{x}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y=\left(c_{1}-\ln x\right)e^{-2x}+\left(c_{2}-\frac{1}{x}\right)x\cdot e^{-2x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Defining 
+\begin_inset Formula $c_{3}=c_{1}-1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\boldsymbol{y=\left(c_{3}-\ln x+c_{2}\cdot x\right)e^{-2x}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $4y''+y=\frac{2}{\cos\left(\nicefrac{x}{2}\right)}\qquad x>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assuming 
+\begin_inset Formula $y=e^{rx}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+4r^{2}+1=0\rightarrow r_{1,2}=\left\{ \pm\frac{i}{2}\right\} 
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\varphi_{1}=\cos\left(\nicefrac{x}{2}\right)\:\varphi_{2}=\sin\left(\nicefrac{x}{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow y=c_{1}\cos\left(\nicefrac{x}{2}\right)+c_{2}\sin\left(\nicefrac{x}{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W\left(\varphi_{1},\varphi_{2},x\right)=\begin{vmatrix}\cos\left(\nicefrac{x}{2}\right) & \sin\left(\nicefrac{x}{2}\right)\\
+\frac{-\sin\left(\nicefrac{x}{2}\right)}{2} & \frac{\cos\left(\nicefrac{x}{2}\right)}{2}
+\end{vmatrix}=\frac{1}{2}
+\]
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+=\frac{1}{2}\left(\cos\left(\nicefrac{x}{2}\right)^{2}+\sin\left(\nicefrac{x}{2}\right)^{2}\right)=\frac{1}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assuming 
+\begin_inset Formula $C_{1}\left(x\right);\quad C_{2}\left(x\right)$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+C_{1}\left(x\right) & =c_{1}-\int\frac{f\left(x\right)\boldsymbol{\varphi_{2}}\left(x\right)}{W\left(\varphi_{1},\varphi_{2},x\right)}dx=\\
+= & c_{1}-\int\frac{\frac{2}{\cos\left(\nicefrac{x}{2}\right)}\cdot\sin\left(\nicefrac{x}{2}\right)}{0.5}dx=\\
+= & c_{1}+8\int\frac{-\nicefrac{1}{2}\cdot\sin\left(\nicefrac{x}{2}\right)}{\cos\left(\nicefrac{x}{2}\right)}dx
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\boldsymbol{C_{1}\left(x\right)=c_{1}+8\ln\left(\cos\frac{x}{2}\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+C_{2}\left(x\right) & =c_{2}+\int\frac{f\left(x\right)\boldsymbol{\varphi_{1}}\left(x\right)}{W\left(\varphi_{1},\varphi_{2},x\right)}dx=\\
+= & c_{2}+\int\frac{\frac{2}{\cos\left(\nicefrac{x}{2}\right)}\cdot\cos\left(\nicefrac{x}{2}\right)}{0.5}dx=\\
+= & c_{2}+4\int dx
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\boldsymbol{C_{2}\left(x\right)=c_{2}+4x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\boldsymbol{y=\left[c_{1}+8\ln\left(\cos\frac{x}{2}\right)\right]\cdot\cos\frac{x}{2}+\left(c_{2}+4x\right)\cdot\sin\frac{x}{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Question 5
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+m\frac{d^{2}x}{dt^{2}}+c\frac{dx}{dt}+kx=F_{0}e^{-\frac{t}{\tau_{c}}}\sin\left(\omega t\right)
+\]
+
+\end_inset
+
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Supposed to divide by 
+\size normal
+\emph on
+m
+\emph default
+ here?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Homogeneous solutions
+\end_layout
+
+\begin_layout Standard
+Assuming underdamped system, and by using solution of form 
+\begin_inset Formula $x=e^{rt}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+mr^{2}+cr+k=0
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+r_{1,2}=\frac{-c\pm\sqrt{c^{2}-4mk}}{2m}=-\frac{c}{2m}\pm\frac{1}{2}\sqrt{\frac{c^{2}}{m^{2}}-4\frac{k}{m}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+r_{1,2}=-\frac{1}{\tau_{c}}\pm i\omega_{c}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\varphi_{1}=e^{-\frac{1}{\tau_{c}}t}\cdot\cos\omega_{c}t
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varphi_{2}=e^{-\frac{1}{\tau_{c}}t}\cdot\sin\omega_{c}t
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Wronskian calculation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varphi'_{1}=e^{-\frac{1}{\tau_{c}}t}\left[-\frac{1}{\tau_{c}}\cdot\cos\omega_{c}t-\omega_{c}\cdot\sin\omega_{c}t\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varphi_{'2}=e^{-\frac{1}{\tau_{c}}t}\left[-\frac{1}{\tau_{c}}\cdot\sin\omega_{c}t+\omega_{c}\cdot\cos\omega_{c}t\right]
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+W\left(\varphi_{1},\varphi_{2},t\right)=\varphi_{1}\varphi'_{2}-\varphi'_{1}\varphi_{2}=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=e^{\frac{-2t}{\tau_{c}}}\left(-\frac{1}{\tau_{c}}\cdot\sin\omega_{c}t+\omega_{c}\cdot\cos\omega_{c}t\right)\cos\omega_{c}t-
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+-e^{\frac{-2t}{\tau_{c}}}\left(-\frac{1}{\tau_{c}}\cdot\cos\omega_{c}t+\omega_{c}\cdot\sin\omega_{c}t\right)\sin\omega_{c}t
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+W\left(\varphi_{1},\varphi_{2},t\right)=e^{\frac{-2t}{\tau_{c}}}\cdot\omega_{c}\cdot\left(\cos^{2}\omega_{c}t+\sin^{2}\omega_{c}t\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\boldsymbol{W\left(\varphi_{1},\varphi_{2},t\right)=\omega_{c}\cdot e^{\frac{-2t}{\tau_{c}}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Variation of parameters for 
+\begin_inset Formula $\omega\neq\omega_{c}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+C_{1}\left(t\right)= & c_{1}-\int\frac{f\left(t\right)\boldsymbol{\varphi_{2}}\left(t\right)}{W\left(\varphi_{1},\varphi_{2},t\right)}dt=\\
+= & c_{1}-\int\frac{F_{0}\cdot e^{-\frac{t}{\tau_{c}}}\cdot\sin\left(\omega t\right)\cdot e^{-\frac{1}{\tau_{c}}t}\cdot\sin\omega_{c}t}{\omega_{c}\cdot e^{\frac{-2t}{\tau_{c}}}}dt=c_{1}-\int\frac{F_{0}\sin\left(\omega t\right)\cdot\sin\omega_{c}t}{\omega_{c}}dt\\
+= & c_{1}-\frac{F_{0}}{2\omega_{c}}\int\left[\cos\left(\left[\omega-\omega_{c}\right]t\right)-\cos\left(\left[\omega+\omega_{c}\right]t\right)\right]dt\\
+C_{1}\left(t\right)= & c_{1}-\frac{F_{0}}{2\omega_{c}}\left[\frac{\sin\left(\left[\omega-\omega_{c}\right]t\right)}{\omega-\omega_{c}}-\frac{\sin\left(\left[\omega+\omega_{c}\right]t\right)}{\omega+\omega_{c}}\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+C_{2}\left(t\right)= & c_{2}+\int\frac{f\left(t\right)\boldsymbol{\varphi_{1}}\left(t\right)}{W\left(\varphi_{1},\varphi_{2},t\right)}dt=\\
+= & c_{2}+\int\frac{F_{0}\cdot e^{-\frac{t}{\tau_{c}}}\cdot\sin\left(\omega t\right)\cdot e^{-\frac{1}{\tau_{c}}t}\cdot\cos\omega_{c}t}{\omega_{c}\cdot e^{\frac{-2t}{\tau_{c}}}}dt=c_{2}+\int\frac{F_{0}\sin\left(\omega t\right)\cdot\cos\omega_{c}t}{\omega_{c}}dt\\
+= & c_{2}+\frac{F_{0}}{2\omega_{c}}\int\left[\sin\left(\left[\omega-\omega_{c}\right]t\right)+\sin\left(\left[\omega+\omega_{c}\right]t\right)\right]dt\\
+C_{2}\left(t\right)= & c_{2}-\frac{F_{0}}{2\omega_{c}}\left[\frac{\cos\left(\left[\omega-\omega_{c}\right]t\right)}{\omega-\omega_{c}}+\frac{\cos\left(\left[\omega+\omega_{c}\right]t\right)}{\omega+\omega_{c}}\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Variation of parameters for
+\begin_inset Formula $\omega=\omega_{c}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituting 
+\begin_inset Formula $\omega=\omega_{c}$
+\end_inset
+
+ in: 
+\begin_inset Formula 
+\[
+C_{1}\left(t\right)=c_{1}-\frac{F_{0}}{2\omega_{c}}\left[\frac{\sin\left(\left[\omega-\omega_{c}\right]t\right)}{\omega-\omega_{c}}-\frac{\sin\left(\left[\omega+\omega_{c}\right]t\right)}{\omega+\omega_{c}}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+C_{1}\left(t\right)=c_{1}-\frac{F_{0}}{2\omega_{c}}\left[t-\frac{\sin2\omega_{c}t}{2\omega_{c}}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For 
+\begin_inset Formula $C_{2}$
+\end_inset
+
+ it has to be done before integrating:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+C_{2}\left(t\right)= & c_{2}+\frac{F_{0}}{2\omega_{c}}\int\left[\sin\left(\left[\omega_{c}-\omega_{c}\right]t\right)+\sin\left(\left[\omega_{c}+\omega_{c}\right]t\right)\right]dt\\
+= & c_{2}+\frac{F_{0}}{2\omega_{c}}\int\left[\sin\left(2\omega_{c}t\right)\right]dt
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+C_{2}\left(t\right)=c_{2}-\frac{F_{0}}{2\omega_{c}}\frac{\cos\left(2\omega_{c}t\right)}{2\omega_{c}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Solution 
+\end_layout
+
+\begin_layout Standard
+The solution is given by linear combination of 
+\begin_inset Formula $\varphi_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\varphi_{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+x\left(t\right) & =C_{1}\left(t\right)\cdot\varphi_{1}\left(t\right)+C_{2}\left(t\right)\cdot\varphi_{2}\left(t\right)\\
+ & =\left(c_{1}-\frac{F_{0}}{2\omega_{c}}\left[t-\frac{\sin2\omega_{C}t}{2\omega_{c}}\right]\right)\cdot e^{-\frac{1}{\tau_{c}}t}\cdot\cos\omega_{c}t+\left(c_{2}-\frac{F_{0}}{2\omega_{c}}\frac{\cos\left(2\omega_{c}t\right)}{2\omega_{c}}\right)\cdot e^{-\frac{1}{\tau_{c}}t}\cdot\sin\omega_{c}t
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituting:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\tau_{c}=\frac{3}{2\cdot2}=\nicefrac{3}{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\omega_{c}=-\left(\frac{c^{2}}{m^{2}}-4\frac{k}{m}\right)=-\frac{3^{2}}{2^{2}}+4\cdot\frac{5/4}{2}$
+\end_inset
+
+=
+\begin_inset Formula $\nicefrac{1}{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Continue here after checking about division by m.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Question 6
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+e^{2x}y''+2y'+y=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Normal form
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\boldsymbol{p\left(x\right)}=e^{-0.5\int\left(\frac{a_{1}}{a_{0}}\right)dx}=\boldsymbol{e^{-0.5e^{-2x}}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p'\left(x\right)=-e^{0.5e^{-2x}-2x}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p''\left(x\right)=e^{0.5e^{-2x}-2x}\left(e^{-2x}+2\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Q\left(x\right)=\frac{p''}{p}+\frac{a_{1}p'}{a_{0}p}+\frac{a_{2}}{a_{0}}=\frac{e^{\cancel{0.5e^{-2x}}-2x}\left(e^{-2x}+2\right)}{\cancel{e^{-0.5e^{-2x}}}}+\frac{2\cdot\left(-e^{\cancel{0.5e^{-2x}}-2x}\right)}{e^{2x}\cdot\left(\cancel{e^{-0.5e^{-2x}}}\right)}+\frac{1}{e^{2x}}=3e^{-2x}-e^{-4x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Normal form:
+\begin_inset Formula 
+\[
+u''+Q\left(x\right)\cdot u=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\boldsymbol{u''+\left(3e^{-2x}-e^{-4x}\right)\cdot u=0}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y\left(x\right)=e^{-0.5e^{-2x}}\cdot u\left(x\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Distance between zeroes
+\end_layout
+
+\begin_layout Standard
+Using Sturm comparison theorem, defining 
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 1
+width "100in"
+special "depth"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $A,B;\;A>B$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+A\left(x\right)=2\qquad B\left(x\right)=3e^{-2x}-e^{-4x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In case of 
+\emph on
+A
+\emph default
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+u''+2u=0
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\varphi=\cos\sqrt{2}x
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Zeros are located at intervals of 
+\begin_inset Formula $\frac{\pi}{\sqrt{2}}$
+\end_inset
+
+.
+ Sturm's theorem states the solution of 
+\begin_inset Formula $u''+B\left(x\right)u=0$
+\end_inset
+
+ will have slower fluctuations than the solution of 
+\begin_inset Formula $u''+A\left(x\right)u=0$
+\end_inset
+
+: Hence the distance between zeroes will be greater than 
+\begin_inset Formula $\frac{\pi}{\sqrt{2}}.$
+\end_inset
+
+ Function 
+\begin_inset Formula $p\left(x\right)$
+\end_inset
+
+ is positive for all domain, and hence does not affect the zeros locations.
+\end_layout
+
+\begin_layout Section
+Question 7
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y''+Q\left(x\right)y=0\qquad Q\left(x\right)<0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using Sturm comparison theorem, we can compare 
+\begin_inset Formula $Q\left(x\right)$
+\end_inset
+
+ with 
+\begin_inset Formula $A\left(x\right)=0,$
+\end_inset
+
+ 
+\begin_inset Formula $A>Q$
+\end_inset
+
+ (given).
+ Solution of the ODE with 
+\begin_inset Formula $A$
+\end_inset
+
+ instead of 
+\begin_inset Formula $Q$
+\end_inset
+
+ will be linear: 
+\begin_inset Formula $\alpha\left(x\right)=ax+b$
+\end_inset
+
+, with at most one zero in whole 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+ domain.
+ Hence, 
+\begin_inset Formula $\vartheta\left(x\right)$
+\end_inset
+
+, solution of given ODE, will have at most one zero, or less (
+\begin_inset Quotes eld
+\end_inset
+
+lower frequency
+\begin_inset Quotes erd
+\end_inset
+
+ than of 
+\begin_inset Formula $\alpha\left(x\right)$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Section
+Question 8
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L=\frac{d^{2}}{dx^{2}}\left(K\frac{d^{2}}{dx^{2}}\right)-N\frac{d^{2}}{dx^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+u\cdot L[w]=u\frac{d^{2}}{dx^{2}}\left(K\frac{d^{2}w}{dx^{2}}\right)-uN\frac{d^{2}w}{dx^{2}}=u\left[Kw''\right]''-uNw''
+\]
+
+\end_inset
+
+Using 
+\begin_inset Formula $\left\{ ab''=\left(ab'-a'b\right)'+a''b\right\} $
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\left[u\left(Kw''\right)'-u'Kw''\right]'+u''Kw''-uNw''=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\left[u\left(Kw''\right)'-u'Kw''\right]'+\left[u''Kw'-\left(u''K\right)'w\right]'+\left(u''K\right)''w-uNw''=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\left[u\left(Kw''\right)'-u'Kw''\right]'+\left[u''Kw'-\left(u''K\right)'w\right]'+\left(u''K\right)''w-\left[uNw'-u'Nw\right]'-u''Nw=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\left[u\left(Kw''\right)'-u'Kw''+u''Kw'-\left(u''K\right)'w-uNw'+u'Nw\right]'+\left(u''K\right)''w-u''Nw=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\left[u\left(Kw''\right)'-uNw'+wNu'-w\left(u''K\right)'-u'Kw''+u''Kw'\right]'+\left(u''K\right)''w-u''Nw=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\underline{\left[u\cdot\left[\left(Kw''\right)'-Nw'\right]+w\cdot\left[Nu'-\left(u''K\right)'\right]+u''Kw'-u'Kw''\right]}'+\underline{\underline{\left(u''K\right)''w-u''Nw}}=
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\frac{d}{dx}\underline{F\left(x,u,w,u',w',u'',w'',u''',w'''\right)}+\underline{\underline{w\cdot\tilde{L}\left[u\right]}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\tilde{L}=L;\qquad F=u\cdot\left[\left(Kw''\right)'-Nw'\right]+w\cdot\left[Nu'-\left(u''K\right)'\right]+u''Kw'-u'Kw''
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Question 9
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+xy''+\left(1-x\right)y'+ny=0;\qquad n=\textrm{const}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Self adjoint (
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Sturm-Liouville
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+) operator is given by:
+\begin_inset Formula 
+\[
+L=\tilde{L}=\frac{d}{dx}\left(p\left(x\right)\cdot\frac{d}{dx}\right)+q\left(x\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p\left(x\right)=e^{\int\frac{1-x}{x}dx}=e^{\int\frac{1}{x}-1dx}=e^{\ln x-x}=x\cdot e^{-x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Substituting into self-adjoint form:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left[p\left(x\right)\cdot y\right]'+\left[p\left(x\right)\cdot\frac{n}{x}\right]y=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left[x\cdot e^{-x}\cdot y\right]'+e^{-x}\cdot n\cdot y=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

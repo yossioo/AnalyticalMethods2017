@@ -1,0 +1,630 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section*
+Ex 1
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+צריך לפתור על ידי טור סביב 
+\lang english
+
+\begin_inset Formula $x=0$
+\end_inset
+
+
+\lang hebrew
+, נקודה סינגולרית.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x\cdot y''+y'-y=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Solution:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x\cdot p\left(x\right)=x\cdot\frac{1}{x}=1
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+x^{2}\cdot q\left(x\right)=x^{2}\cdot\frac{1}{x}=x
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+מכאן: 
+\begin_inset Formula $x=0$
+\end_inset
+
+ היא נקודה סינגולרית חלשה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{cases}
+p_{0} & =1\\
+q_{0} & =0
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+משוואת האינדקסים:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula 
+\[
+\delta\left(r\right)=r\cdot\left(r-1\right)+r=0\qquad\rightarrow r_{1}=r_{2}=\underline{\boldsymbol{0=r}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left[\delta\left(r\right)=r\left(r-1\right)+p_{0}\cdot r+q_{0}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+פתרונות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varphi_{1}\left(x\right)=x^{r}\cdot\sum_{n=0}^{\infty}a_{n}x^{n}=\sum_{n=0}^{\infty}a_{n}x^{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varphi_{2}\left(x\right)=\varphi_{1}\left(x\right)\cdot\ln x+x^{r}\sum_{n=1}^{\infty}b_{n}x^{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+בפיתוח שיעשה כאן נראה ש-
+\begin_inset Formula $b_{0}$
+\end_inset
+
+ שווה ל-
+\numeric on
+0
+\numeric off
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varphi_{1}\rightarrow\varphi_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\{ x\cdot y''+y'-y=0\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+פתרון ראשון:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varphi_{1}\left(x\right)=\sum_{n=0}^{\infty}a_{n}x^{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varphi'_{1}\left(x\right)=\sum_{n=0}^{\infty}a_{n}\cdot n\cdot x^{n-1}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\varphi''_{1}\left(x\right)=\sum_{n=0}^{\infty}a_{n}\cdot n\cdot\left(n-1\right)x^{n-2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+נציב במשוואה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x\cdot\left[\sum_{n=0}^{\infty}a_{n}\cdot n\cdot\left(n-1\right)\cdot x^{n-2}\right]+\left[\sum_{n=0}^{\infty}a_{n}\cdot n\cdot x^{n-1}\right]+\left[\sum_{n=0}^{\infty}a_{n}\cdot x^{n}\right]=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x\cdot\left[\sum_{n=0}^{\infty}a_{n}\cdot n\cdot\left(n-1\right)\cdot x^{n-2}\right]+\left[\sum_{n=0}^{\infty}a_{n}\cdot n\cdot x^{n-1}\right]+\left[\boldsymbol{\sum_{n=1}^{\infty}a_{n-1}\cdot x^{n-1}}\right]=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a_{0}\cdot\left[0\right]\cdot x^{-1}+\sum_{n=1}^{\infty}\left[a_{n}\cdot n\cdot\left(n-1\right)+a_{n}\cdot n-a_{n-1}\right]\cdot x^{n-1}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+ניתן לבחור את 
+\begin_inset Formula $a_{0}$
+\end_inset
+
+ שרירותית )אבל לא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+( ולכן 
+\begin_inset Formula $a_{0}=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+מתוך הסכום נקבל את נוסחת הנסיגה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a_{n}\cdot n\cdot\left(n-1\right)+a_{n}\cdot n-a_{n-1}=0\qquad\Rightarrow\qquad a_{n}=\left[\frac{1}{n^{2}}\right]\cdot a_{n-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a_{n}=\frac{1}{n^{2}}\cdot a_{n-1}=\frac{1}{\left(n\cdot\left(n-1\right)\right)^{2}}\cdot a_{n-2}=\dots=\left(\frac{1}{n!}\right)^{2}\cdot a_{0}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+מכאן מקבלים את הפתרון הראשון:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varphi_{1}\left(x\right)=\sum_{n=0}^{\infty}\left(\frac{1}{n!}\right)^{2}x^{n}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\varphi_{1}\left(x\right)=1+x+\frac{1}{4}x^{2}+\dots
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+עכשיו נחפש את הפתרון השני:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varphi_{2}\left(x\right)=\varphi_{1}\left(x\right)\cdot\ln x+\sum_{n=1}^{\infty}b_{n}\cdot x^{n+r|_{r=0}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varphi'_{2}\left(x\right)=\varphi'_{1}\left(x\right)\cdot\ln x+\varphi_{1}\left(x\right)\cdot\frac{1}{x}+\sum_{n=1}^{\infty}b_{n}\cdot n\cdot x^{n-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varphi''_{2}\left(x\right)=\varphi''_{1}\left(x\right)\cdot\ln x+2\varphi'_{1}\left(x\right)\cdot\ln x-\varphi_{1}\left(x\right)\cdot\frac{1}{x^{2}}+\sum_{n=1}^{\infty}b_{n}\cdot n\cdot\left(n-1\right)\cdot x^{n-2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+הצבה למשוואה:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x\left[\varphi''_{1}\left(x\right)\cdot\ln x+2\varphi'_{1}\left(x\right)\cdot\ln x-\varphi_{1}\left(x\right)\cdot\frac{1}{x^{2}}+\sum_{n=1}^{\infty}b_{n}\cdot n\cdot\left(n-1\right)\cdot x^{n-2}\right]+
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
++\left[\varphi'_{1}\left(x\right)\cdot\ln x+\varphi_{1}\left(x\right)\cdot\frac{1}{x}+\sum_{n=1}^{\infty}b_{n}\cdot n\cdot x^{n-1}\right]-
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+-\left[\varphi_{1}\left(x\right)\cdot\ln x+\sum_{n=1}^{\infty}b_{n}\cdot x^{n}\right]=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\ln x\left[x\cdot\varphi''_{1}+\varphi_{1}'-\varphi\right]\qquad@\left\{ x\cdot\varphi''_{1}+\varphi_{1}'-\varphi=0\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+לכן אפשר למחוק כל מקום שיש 
+\begin_inset Formula $\ln$
+\end_inset
+
+ ואז מה שנשאר:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2\varphi_{1}'+\sum_{n=1}^{\infty}b_{n}\cdot n\cdot\left(n-1\right)\cdot x^{n}+\sum_{n=1}^{\infty}b_{n}\cdot n\cdot x^{n-1}-\sum_{n=2}^{\infty}b_{n-1}\cdot x^{n-1}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+כעת ניתן לקבץ איברים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+b_{1}\cdot x^{0}+\sum_{n=2}^{\infty}\left[b_{n}\cdot n^{2}-b_{n-1}\right]\cdot x^{n-1}=-2\varphi_{1}'=-2\cdot x^{0}-2\sum_{n=0}^{\infty}\frac{n}{\left(n!\right)^{2}}\cdot x^{n-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+עושים השוואת מקדמים של החזקות:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+x^{0}: &  & b_{1} & =-2\\
+x^{n}|_{n\geq1}: &  & \sum_{n=2}^{\infty}\left[b_{n}\cdot n^{2}-b_{n-1}\right] & =-2\sum_{n=0}^{\infty}\frac{n}{\left(n!\right)^{2}}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+מסדרים ומקבלים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+x^{0}: &  & b_{1} & =-2\\
+x^{n}|_{n\geq1}: &  & b_{n} & =\frac{1}{n^{2}}\left[b_{n-1}-2\frac{n}{\left(n!\right)^{2}}\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+עכשיו אפשר לחשב את האיברים הראשונים:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+b_{2}=\frac{1}{4}\cdot\left(-2-2\frac{2}{\left(2!\right)^{2}}\right)=-\frac{3}{4},\qquad b_{3}=\dots=-\frac{11}{108}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varphi_{1}=\sum_{n=0}^{\infty}a_{n}x^{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varphi_{2}=\varphi_{1}\ln x+\sum_{n=1}^{\infty}b_{n}\cdot x^{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+וזהו הפתרון.
+\end_layout
+
+\end_body
+\end_document
