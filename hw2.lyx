@@ -574,11 +574,15 @@ Question 3
 \end_layout
 
 \begin_layout Standard
-Singular points at 
+Singular points: 
 \begin_inset Formula $x=0,1$
 \end_inset
 
+, but 
+\begin_inset Formula $x=0$
+\end_inset
 
+ is out of range.
 \end_layout
 
 \begin_layout Standard
@@ -597,8 +601,27 @@ Point
 \begin_inset Formula $x=1$
 \end_inset
 
- is singular point.
- We wish to find the power series solution, expanded at 
+ is 
+\begin_inset Quotes eld
+\end_inset
+
+irregular
+\begin_inset Quotes erd
+\end_inset
+
+ singular point? 
+\begin_inset Formula 
+\[
+\left(x-1\right)\cdot p\left(x\right)=\frac{6x^{2}}{x\left(x-1\right)}=\frac{6x}{\left(x-1\right)}\qquad q\left(x\right)=\frac{3}{x\left(x-1\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We wish to find the power series solution, expanded at 
 \begin_inset Formula $x=?$
 \end_inset
 
@@ -795,6 +818,14 @@ a_{0}r\left(r-1\right)=0
 \end_inset
 
 
+\begin_inset Formula 
+\[
+\rightarrow a_{s}=\frac{a_{s-1}\left[3+\left(r+s-1\right)\left(r+s-2\right)\right]+6a_{s-2}\left(r+s-2\right)}{\left(r+s\right)\left(r+s-1\right)}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -814,6 +845,18 @@ r\left(r-1\right)=0\quad\rightarrow\quad r_{1}=1;r_{2}=0
 \end_layout
 
 \begin_layout Standard
+Case 
+\begin_inset Formula $r=r_{1}=1$
+\end_inset
+
+, arbitrary chosing 
+\begin_inset Formula $a_{0}=1$
+\end_inset
+
+ :
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula 
 \[
 \varphi_{1}\left(x\right)=\sum_{n=0}^{\infty}a_{n}x^{n+1}
@@ -827,7 +870,116 @@ r\left(r-1\right)=0\quad\rightarrow\quad r_{1}=1;r_{2}=0
 \begin_layout Standard
 \begin_inset Formula 
 \[
+a_{1}=a_{0}\frac{3+1\cancelto{0}{\left(1-1\right)}}{1+1}=\frac{3}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a_{2}=\frac{a_{1}\left[3+\left(1+2-1\right)\left(1+2-2\right)\right]+6a_{0}\left(1+2-2\right)}{\left(1+2\right)\left(1+2-1\right)}=\frac{5a_{1}+6a_{0}}{6}=\frac{5\frac{3}{2}a_{0}+6a_{0}}{6}=\frac{9}{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow\boldsymbol{\underline{\varphi_{1}\left(x\right)=x+\frac{3}{2}x^{2}+\frac{9}{4}x^{3}+\dots}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+a_{1}=a_{0}\frac{3+1\cancelto{0}{\left(1-1\right)}}{1+1}=\frac{3}{2}a_{0}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+a_{2}=\frac{a_{1}\left[3+\left(1+2-1\right)\left(1+2-2\right)\right]+6a_{0}\left(1+2-2\right)}{\left(1+2\right)\left(1+2-1\right)}=\frac{5a_{1}+6a_{0}}{6}=\frac{5\frac{3}{2}a_{0}+6a_{0}}{6}=\frac{9}{4}a_{0}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\Rightarrow\boldsymbol{\underline{\varphi_{1}\left(x\right)=a_{0}\left(x+\frac{3}{2}x^{2}+\frac{9}{4}x^{3}+\dots\right)}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Case 
+\begin_inset Formula $r=r_{2}=0$
+\end_inset
+
+, choosing 
+\begin_inset Formula $b_{0}=1$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
 \varphi_{2}\left(x\right)=\sum_{n=0}^{\infty}b_{n}x^{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+b_{1}=b_{0}\frac{3+0\left(0-1\right)}{0+1}=3b_{0}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+b_{2}=\frac{b_{1}\left[3+\left(0+2-1\right)\left(0+2-2\right)\right]+6b_{0}\left(0+2-2\right)}{\left(0+2\right)\left(0+2-1\right)}=\frac{3}{2}b_{1}=\frac{9}{2}b_{1}
 \]
 
 \end_inset
