@@ -567,7 +567,7 @@ Question 3
 \end_layout
 
 \begin_layout Subsection
-\begin_inset Formula $x\left(x-1\right)\cdot y''+6x^{2}\cdot y'+3y=0\qquad x>0$
+\begin_inset Formula $x\cdot\left(x-1\right)\cdot y''+6x^{2}\cdot y'+3y=0\qquad x>0$
 \end_inset
 
 
@@ -859,7 +859,7 @@ Case
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\varphi_{1}\left(x\right)=\sum_{n=0}^{\infty}a_{n}x^{n+1}
+\varphi_{1}\left(x\right)=x\cdot\sum_{n=0}^{\infty}a_{n}x^{n}=\sum_{n=0}^{\infty}a_{n}x^{n+1}
 \]
 
 \end_inset
@@ -947,8 +947,18 @@ Case
 \begin_inset Formula $r=r_{2}=0$
 \end_inset
 
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
 , choosing 
 \begin_inset Formula $b_{0}=1$
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 :
@@ -957,7 +967,7 @@ Case
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\varphi_{2}\left(x\right)=\sum_{n=0}^{\infty}b_{n}x^{n}
+\varphi_{2}\left(x\right)=x^{0}\sum_{n=0}^{\infty}b_{n}x^{n}+\textrm{K}\cdot\ln x\cdot\varphi_{1}
 \]
 
 \end_inset
@@ -968,7 +978,7 @@ Case
 \begin_layout Standard
 \begin_inset Formula 
 \[
-b_{1}=b_{0}\frac{3+0\left(0-1\right)}{0+1}=3b_{0}
+\varphi'_{2}\left(x\right)=\textrm{K}\cdot\left(\ln x\cdot\varphi'_{1}+\frac{1}{x}\cdot\varphi_{1}\right)+\sum_{n=0}^{\infty}b_{n}\cdot n\cdot x^{n-1}
 \]
 
 \end_inset
@@ -979,13 +989,163 @@ b_{1}=b_{0}\frac{3+0\left(0-1\right)}{0+1}=3b_{0}
 \begin_layout Standard
 \begin_inset Formula 
 \[
-b_{2}=\frac{b_{1}\left[3+\left(0+2-1\right)\left(0+2-2\right)\right]+6b_{0}\left(0+2-2\right)}{\left(0+2\right)\left(0+2-1\right)}=\frac{3}{2}b_{1}=\frac{9}{2}b_{1}
+\varphi''_{2}\left(x\right)=\textrm{K}\cdot\left(\ln x\cdot\varphi''_{1}+2\cdot\frac{1}{x}\cdot\varphi_{1}-\frac{1}{x^{2}}\cdot\varphi_{1}\right)+\sum_{n=0}^{\infty}b_{n}\cdot n\cdot\left(n-1\right)\cdot x^{n-2}
 \]
 
 \end_inset
 
 
 \end_layout
+
+\begin_layout Standard
+Substituting into equation:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+x\cdot\left(x-1\right)\cdot\left[\textrm{K}\cdot\left(\ln x\cdot\varphi''_{1}+2\cdot\frac{1}{x}\cdot\varphi_{1}-\frac{1}{x^{2}}\cdot\varphi_{1}\right)+\sum_{n=0}^{\infty}b_{n}\cdot n\cdot\left(n-1\right)\cdot x^{n-2}\right] & +\\
++6x^{2}\cdot\left[\textrm{K}\cdot\left(\ln x\cdot\varphi'_{1}+\frac{1}{x}\cdot\varphi_{1}\right)+\sum_{n=0}^{\infty}b_{n}\cdot n\cdot x^{n-1}\right] & +\\
++3\cdot\left[\sum_{n=0}^{\infty}b_{n}x^{n}+\textrm{K}\cdot\ln x\cdot\varphi_{1}\right] & =0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Every case of ln falls:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+x\cdot\left(x-1\right)\cdot\left[\textrm{K}\cdot\left(2\cdot\frac{1}{x}\cdot\varphi_{1}-\frac{1}{x^{2}}\cdot\varphi_{1}\right)+\sum_{n=0}^{\infty}b_{n}\cdot n\cdot\left(n-1\right)\cdot x^{n-2}\right] & +\\
++6x^{2}\cdot\left[\textrm{K}\cdot\frac{1}{x}\cdot\varphi_{1}+\sum_{n=0}^{\infty}b_{n}\cdot n\cdot x^{n-1}\right] & +\\
++3\cdot\sum_{n=0}^{\infty}b_{n}x^{n} & =0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Rearranging:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\left(x-1\right)\cdot\left[\textrm{K}\cdot\left(2\cdot\varphi_{1}-\frac{1}{x}\cdot\varphi_{1}\right)+\sum_{n=0}^{\infty}b_{n}\cdot n\cdot\left(n-1\right)\cdot x^{\boldsymbol{n-1}}\right] & +\\
++6\cdot\left[\textrm{K}\cdot x\cdot\varphi_{1}+\sum_{n=0}^{\infty}b_{n}\cdot n\cdot x^{n+1}\right] & +\\
++3\cdot\sum_{n=0}^{\infty}b_{n}x^{n} & =0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\left(x-1\right)\cdot\textrm{K}\cdot\left(2\cdot\varphi_{1}-\frac{1}{x}\cdot\varphi_{1}\right)+\left(x-1\right)\cdot\sum_{n=0}^{\infty}b_{n}\cdot n\cdot\left(n-1\right)\cdot x^{n-1} & +\\
++6\cdot\textrm{K}\cdot x\cdot\varphi_{1}+6\cdot\sum_{n=0}^{\infty}b_{n}\cdot n\cdot x^{n+1} & +\\
++3\cdot\sum_{n=0}^{\infty}b_{n}x^{n} & =0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\left(x-1\right)\cdot\textrm{K}\cdot\left(2\cdot\varphi_{1}-\frac{1}{x}\cdot\varphi_{1}\right)+\left(x-1\right)\cdot\sum_{n=0}^{\infty}b_{n}\cdot n\cdot\left(n-1\right)\cdot x^{n-1} & +\\
++6\cdot\textrm{K}\cdot x\cdot\varphi_{1}+6\cdot\sum_{n=0}^{\infty}b_{n}\cdot n\cdot x^{n+1} & +\\
++3\cdot\sum_{n=0}^{\infty}b_{n}x^{n} & =0
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(x-1\right)\cdot\sum_{n=0}^{\infty}b_{n}\cdot n\cdot\left(n-1\right)\cdot x^{n-1}+6\cdot\sum_{n=0}^{\infty}b_{n}\cdot n\cdot x^{n+1}+3\cdot\sum_{n=0}^{\infty}b_{n}x^{n}=-\textrm{K}\cdot\left[6x\cdot\varphi_{1}+\left(x-1\right)\cdot\left(2\cdot\varphi_{1}-\frac{1}{x}\cdot\varphi_{1}\right)\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\sum_{n=0}^{\infty}b_{n}\cdot n\cdot\left(n-1\right)\cdot x^{n}-\sum_{n=0}^{\infty}b_{n}\cdot n\cdot\left(n-1\right)\cdot x^{n-1}+6\cdot\sum_{n=0}^{\infty}b_{n}\cdot n\cdot x^{n+1}+3\cdot\sum_{n=0}^{\infty}b_{n}x^{n} & =\\
+=-\textrm{K}\cdot\left[6x\cdot\varphi_{1}+\left(x-1\right)\cdot\left(2\cdot\varphi_{1}-\frac{1}{x}\cdot\varphi_{1}\right)\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Shifting indices:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\sum_{n=1}^{\infty}b_{n-1}\cdot\left(n-1\right)\cdot\left(n-2\right)\cdot x^{n-1}-\sum_{n=0}^{\infty}b_{n}\cdot n\cdot\left(n-1\right)\cdot x^{n-1} & +\\
++6\cdot\sum_{n=2}^{\infty}b_{n-2}\cdot\left(n-2\right)\cdot x^{n-1}+3\cdot\sum_{n=1}^{\infty}b_{n-1}x^{n-1} & =-\textrm{K}\cdot\left[6x\cdot\varphi_{1}+\left(x-1\right)\cdot\left(2\cdot\varphi_{1}-\frac{1}{x}\cdot\varphi_{1}\right)\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Combining terms:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+-b_{0}\cdot\cancel{0}\cdot\left(0-1\right)\cdot x^{0-1} & +\\
++b_{1-1}\cdot\cancel{\left(1-1\right)}\cdot\left(1-2\right)\cdot x^{1-1}+b_{1}\cdot1\cdot\cancel{\left(1-1\right)}\cdot x^{1-1}+b_{0}x^{0} & +\\
++\sum_{n=2}^{\infty}\left[b_{n-1}\cdot\left(n-1\right)\cdot\left(n-2\right)\cdot x^{n-1}-b_{n}\cdot n\cdot\left(n-1\right)\cdot x^{n-1}+6\cdot b_{n-2}\cdot\left(n-2\right)\cdot x^{n-1}+3\cdot b_{n-1}x^{n-1}\right] & =\\
+=\textrm{K}\cdot\left[6x\cdot\varphi_{1}+\left(x-1\right)\cdot\left(2\cdot\varphi_{1}-\frac{1}{x}\cdot\varphi_{1}\right)\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+b_{0}x^{0}+\sum_{n=2}^{\infty}\left[b_{n-1}\cdot\left(n-1\right)\cdot\left(n-2\right)\cdot x^{n-1}-b_{n}\cdot n\cdot\left(n-1\right)\cdot x^{n-1}+6\cdot b_{n-2}\cdot\left(n-2\right)\cdot x^{n-1}+3\cdot b_{n-1}x^{n-1}\right] & =\\
+=\textrm{K}\cdot\left[6x\cdot\varphi_{1}+\left(x-1\right)\cdot\left(2\cdot\varphi_{1}-\frac{1}{x}\cdot\varphi_{1}\right)\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Note Note
+status collapsed
 
 \begin_layout Subsection
 \begin_inset Formula $4x^{2}\cdot y''+\left(3x+1\right)\cdot y=0\qquad x>0$
@@ -994,7 +1154,7 @@ b_{2}=\frac{b_{1}\left[3+\left(0+2-1\right)\left(0+2-2\right)\right]+6b_{0}\left
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Formula 
 \[
 \varphi\left(x\right)=x^{r}\sum_{n=0}^{\infty}a_{n}x^{n}=\sum_{n=0}^{\infty}a_{n}x^{r+n}
@@ -1005,7 +1165,7 @@ b_{2}=\frac{b_{1}\left[3+\left(0+2-1\right)\left(0+2-2\right)\right]+6b_{0}\left
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Formula 
 \[
 \varphi'\left(x\right)=\sum_{n=0}^{\infty}a_{n}\left(r+n\right)\cdot x^{r+n-1}
@@ -1016,7 +1176,7 @@ b_{2}=\frac{b_{1}\left[3+\left(0+2-1\right)\left(0+2-2\right)\right]+6b_{0}\left
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Formula 
 \[
 \varphi''\left(x\right)=\sum_{n=0}^{\infty}a_{n}\left(r+n\right)\left(r+n-1\right)\cdot x^{r+n-2}
@@ -1027,11 +1187,11 @@ b_{2}=\frac{b_{1}\left[3+\left(0+2-1\right)\left(0+2-2\right)\right]+6b_{0}\left
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Sub:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Formula 
 \[
 4x^{2}\cdot\sum_{n=0}^{\infty}a_{n}\left(r+n\right)\left(r+n-1\right)\cdot x^{r+n-2}+\left(3x+1\right)\cdot\sum_{n=0}^{\infty}a_{n}x^{r+n}=0
@@ -1042,7 +1202,7 @@ Sub:
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Formula 
 \[
 4\cdot\sum_{n=0}^{\infty}a_{n}\left(r+n\right)\left(r+n-1\right)\cdot x^{r+n}+3\sum_{n=0}^{\infty}a_{n}x^{r+n+1}+\sum_{n=0}^{\infty}a_{n}x^{r+n}=0
@@ -1053,11 +1213,11 @@ Sub:
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Shifting
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Formula 
 \[
 4\cdot\sum_{n=0}^{\infty}a_{n}\left(r+n\right)\left(r+n-1\right)\cdot x^{r+n}+3\sum_{n=1}^{\infty}a_{n-1}x^{r+n}+\sum_{n=0}^{\infty}a_{n}x^{r+n}=0
@@ -1076,7 +1236,7 @@ Shifting
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Formula 
 \[
 \left[4\cdot a_{0}r\left(r-1\right)+a_{0}\right]=0\quad\rightarrow\quad4r\left(r-1\right)+1=0\quad\rightarrow\quad\boldsymbol{r_{1,2}=\nicefrac{1}{2}}
@@ -1095,11 +1255,11 @@ Shifting
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Solutions:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Formula 
 \[
 \varphi_{1}\left(x\right)=x^{0.5}\sum_{n=0}^{\infty}a_{n}x^{n}
@@ -1110,11 +1270,16 @@ Solutions:
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Formula 
 \[
 \varphi_{2}\left(x\right)=x^{0.5}\sum_{n=0}^{\infty}b_{n}x^{n}
 \]
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 

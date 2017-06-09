@@ -100,5 +100,67 @@ Question 1
 
 \end_layout
 
+\begin_layout Standard
+By definition:
+\begin_inset Formula 
+\[
+\intop_{-\infty}^{\infty}f\left(x\right)\cdot\delta\left(x-x_{0}\right)dx=f\left(x_{0}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hence:
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\intop_{a}^{b}H\left(x-x_{0}\right)\cdot f\left(x\right)dx\overset{?}{=}f\left(x_{0}\right),\qquad a\leq x_{o}\leq b$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\intop_{a}^{b}H\left(x-x_{0}\right)\cdot f\left(x\right)dx=\left.H\left(x-x_{0}\right)\cdot f\left(x\right)\right|_{a}^{b}-\intop_{a}^{b}H\left(x-x_{0}\right)\cdot f'\left(x\right)dx=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $=\cancelto{1}{H\left(b-x_{0}\right)}\cdot f\left(b\right)-\cancelto{0}{H\left(a-x_{0}\right)\cdot f\left(a\right)}-\intop_{a}^{x_{0}}0\cdot f'\left(x\right)dx-\intop_{x_{0}}^{b}1\cdot f'\left(x\right)dx=$
+\end_inset
+
+
+\begin_inset Formula $f\left(b\right)-f\left(b\right)+f\left(x_{0}\right)=f\left(x_{0}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\intop_{a}^{b}\delta\left(k\cdot\left(x-x_{0}\right)\right)\cdot f\left(x\right)dx\overset{?}{=}\frac{1}{k}f\left(x_{0}\right),\qquad a\leq x_{o}\leq b,\;k>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\intop_{a}^{b}\delta'\left(x-x_{0}\right)\cdot f\left(x\right)dx\overset{?}{=}-f'\left(x_{0}\right),\qquad a\leq x_{o}\leq b$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
